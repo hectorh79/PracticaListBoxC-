@@ -1,0 +1,15 @@
+C:\Users\Héctor Hernández\source\repos\PracticaListBox\PracticaListBox\bin\Debug\PracticaListBox.exe.config
+C:\Users\Héctor Hernández\source\repos\PracticaListBox\PracticaListBox\bin\Debug\PracticaListBox.exe
+C:\Users\Héctor Hernández\source\repos\PracticaListBox\PracticaListBox\bin\Debug\PracticaListBox.pdb
+C:\Users\Héctor Hernández\source\repos\PracticaListBox\PracticaListBox\obj\Debug\PracticaListBox.csproj.AssemblyReference.cache
+C:\Users\Héctor Hernández\source\repos\PracticaListBox\PracticaListBox\obj\Debug\MainWindow.g.cs
+C:\Users\Héctor Hernández\source\repos\PracticaListBox\PracticaListBox\obj\Debug\App.g.cs
+C:\Users\Héctor Hernández\source\repos\PracticaListBox\PracticaListBox\obj\Debug\PracticaListBox_MarkupCompile.cache
+C:\Users\Héctor Hernández\source\repos\PracticaListBox\PracticaListBox\obj\Debug\PracticaListBox_MarkupCompile.lref
+C:\Users\Héctor Hernández\source\repos\PracticaListBox\PracticaListBox\obj\Debug\MainWindow.baml
+C:\Users\Héctor Hernández\source\repos\PracticaListBox\PracticaListBox\obj\Debug\PracticaListBox.g.resources
+C:\Users\Héctor Hernández\source\repos\PracticaListBox\PracticaListBox\obj\Debug\PracticaListBox.Properties.Resources.resources
+C:\Users\Héctor Hernández\source\repos\PracticaListBox\PracticaListBox\obj\Debug\PracticaListBox.csproj.GenerateResource.cache
+C:\Users\Héctor Hernández\source\repos\PracticaListBox\PracticaListBox\obj\Debug\PracticaListBox.csproj.CoreCompileInputs.cache
+C:\Users\Héctor Hernández\source\repos\PracticaListBox\PracticaListBox\obj\Debug\PracticaListBox.exe
+C:\Users\Héctor Hernández\source\repos\PracticaListBox\PracticaListBox\obj\Debug\PracticaListBox.pdb

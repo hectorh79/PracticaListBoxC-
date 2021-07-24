@@ -1,0 +1,55 @@
+﻿<Window x:Class="PracticaListBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticaListBox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+
+        </Grid.RowDefinitions>
+
+        <ListBox Name ="listaPoblaciones" HorizontalContentAlignment="Stretch">
+
+            <ListBox.ItemTemplate>
+
+                <DataTemplate>
+
+                    <Grid Margin="2">
+
+                        <Grid.ColumnDefinitions>
+
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            
+
+                        </Grid.ColumnDefinitions>
+                        
+                        <!-- Creacion de bloques de texto que contendran la información de Lista en C#-->
+                        <TextBlock Grid.Column="0" Text="{Binding Poblacion1}"></TextBlock>
+                        <TextBlock Grid.Column="1" Text="{Binding Temperatura1}"></TextBlock>
+                        <TextBlock Grid.Column="2" Text="{Binding Poblacion2}"></TextBlock>
+                        <!-- Se activa la fucnion PreviwMousseDown la cual se comportará como si fuera un click en el elemento. La activación genera la clase automatica en C#-->
+                        <TextBlock Grid.Column="3"  PreviewMouseDown="TextBlock_PreviewMouseDown" Text="{Binding Temperatura2}"></TextBlock>
+                        <ProgressBar Grid.Column="4" Minimum="0" Maximum="50" Value = "{Binding DifTemp}"></ProgressBar>
+                    </Grid>
+                    
+                </DataTemplate>
+                
+            </ListBox.ItemTemplate>
+            
+        </ListBox>
+
+        <Button Grid.Row="1" Click="Button_Click"> Click </Button>
+        
+    </Grid>
+</Window>
